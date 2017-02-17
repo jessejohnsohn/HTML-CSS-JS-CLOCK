@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.backburn {
+    height: 560px;
+    width: 560px;
+    background-color: #EBDDE2;
+    border-radius: 10%;
+    border: 3px solid #888888;
+    -moz-box-shadow: inset 5px 5px 20px #888888;
+    -webkit-box-shadow: inset 5px 5px 20px #888888;
+    box-shadow: inset 5px 5px 10px #888888;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: scale(.7)
+}
+
+.background {
+    height: 520px;
+    width: 520px;
+    background-color: #000;
+    border-radius: 10%;
+    border: 3px solid #000;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.clock {
+    height: 500px;
+    width: 500px;
+    background-color: #000;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.twelve {
+    position: absolute;
+    width: 5px;
+    height: 20px;
+    background: #FFFFFF;
+    left: 0;
+    top: -5px;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.three {
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    right: -5px;
+    margin: auto 0;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.six {
+    position: absolute;
+    width: 5px;
+    height: 20px;
+    background: #FFFFFF;
+    left: 0;
+    bottom: -5px;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.nine {
+    position: absolute;
+    width: 20px;
+    height: 5px;
+    background: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    margin: auto 0;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.center {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 100%;
+}
+
+.middle_center {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #C58917;
+    border-radius: 100%;
+}
+
+.inner_center {
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #000;
+    border-radius: 100%;
+}
+
+#seconds {
+    position: absolute;
+    height: 160px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    top: 0px;
+    margin: auto;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    background: #C58917;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#second_hand {
+    background-color: #C58917;
+    width: 10px;
+    height: 210px;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    bottom: 210px;
+    top: 0px;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom
+}
+
+#second_hand_ext {
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    top: 0px;
+    margin: auto;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    background: #C58917;
+}
+
+#minutes {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    top: 0px;
+    margin: auto;
+    background: #FFFFFF;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+}
+
+#minute_hand {
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    bottom: 180px;
+    top: 0px;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+}
+
+#hours {
+    position: absolute;
+    height: 80px;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    top: 0px;
+    margin: auto;
+    background: #FFFFFF;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+}
+
+#hour_hand {
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 140px;
+    position: absolute;
+    left: 0;
+    right: 0px;
+    bottom: 140px;
+    top: 0px;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom
+}
